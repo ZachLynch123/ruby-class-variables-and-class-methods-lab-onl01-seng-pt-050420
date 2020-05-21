@@ -17,17 +17,17 @@ class Song
   end
   
   def self.genres
-    single_genre = []
+    @single_genre = []
     
     @@genre.each do |genre|
       
-      if single_genre.include?(genre)
-        single_genre
+      if @single_genre.include?(genre)
+        puts genre
       else
-        single_genre << genre
+        @single_genre << genre
       end
     end
-    return single_genre 
+    return @single_genre 
   end
 
 
