@@ -58,7 +58,7 @@ class Song
     hash  = {}
     
     @@genres.each do |genre|
-      if hash.key(genre)
+      if hash.key?(genre)
         puts "I'm being ran"
         hash[genre].value + 1 
       else
