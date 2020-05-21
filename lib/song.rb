@@ -42,9 +42,9 @@ class Song
       else
         @unique_artists << artist
       end
-      @unique_artists
     end
-    
+  return @unique_artists
+
   end
   
     
