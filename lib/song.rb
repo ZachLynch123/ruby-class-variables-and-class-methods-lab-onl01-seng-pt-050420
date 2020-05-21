@@ -59,7 +59,7 @@ class Song
     
     @@genres.each do |genre|
       if hash.key(genre)
-        
+        puts "I'm being run"
         hash[genre].value + 1 
       else
         hash[genre] = 1 
