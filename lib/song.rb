@@ -19,7 +19,7 @@ class Song
   def self.genres
     @single_genre = []
     
-    @@genre.each do |genre|
+    @@genres.each do |genre|
       
       if @single_genre.include?(genre)
         puts genre
